@@ -4,7 +4,7 @@ import xbmc
 import xbmcaddon
 import logging
 
-ADDON = xbmcaddon.Addon(id='service.sonos')
+ADDON = xbmcaddon.Addon(id='service.cec')
 ADDON_ID = ADDON.getAddonInfo('id')
 
 

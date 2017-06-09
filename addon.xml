@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="service.sonos" name="Sonos" version="0.1.0" provider-name="BillyNate">
+<addon id="service.cec" name="HDMI CEC" version="0.1.1" provider-name="BillyNate">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 	</requires>
-	<extension point="xbmc.service" library="service.py" start="login"/>
+	<extension point="xbmc.service" library="service.py" start="startup"/>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Sonos Controller</summary>
-		<description lang="en">Supports simple Sonos Controls and notifications from Kodi. Look at the wiki for more details.</description>
+		<summary lang="en">Custom HDMI CEC support</summary>
+		<description lang="en">Different implementation of HDMI CEC support. Built-in support by Kodi needs to be disabled.</description>
 		<language></language>
 		<platform>all</platform>
 		<license>See LICENSE.txt</license>
@@ -16,9 +16,8 @@
 		<donate></donate>
 		<assets>
 			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-			<banner>resources/banner.jpg</banner>
-			<logo>resources/logo.png</logo>
+			<banner>resources/banner.png</banner>
+			<logo>resources/logo.jpg</logo>
 		</assets>
 	</extension>
 </addon>

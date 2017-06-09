@@ -1,6 +1,6 @@
 # Kodi Media Center language file
 # Addon Name: Sonos
-# Addon id: script.sonos
+# Addon id: service.cec
 # Addon Provider: robwebset
 msgid ""
 msgstr ""
@@ -17,15 +17,15 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgctxt "Addon Summary"
-msgid "Sonos Controller."
+msgid "Custom HDMI CEC support."
 msgstr ""
 
 msgctxt "Addon Description"
-msgid "Supports simple Sonos Controls and notifications from Kodi. Look at the wiki for more details."
+msgid "Different implementation of HDMI CEC support. Built-in support by Kodi needs to be disabled."
 msgstr ""
 
 msgctxt "#32017"
-msgid "Redirect Volume Controls To Sonos (Restart Required)"
+msgid "Redirect CEC Controls (Restart Required)"
 msgstr ""
 
 msgctxt "#32034"
@@ -37,9 +37,9 @@ msgid "Status Checks Per Second (Restart Required)"
 msgstr ""
 
 msgctxt "#32050"
-msgid "SonosVolumeRedirect"
+msgid "CECRedirect"
 msgctxt "#32051"
-msgid "SonosService"
+msgid "CECService"
 msgstr ""
 
 msgctxt "#32052"
@@ -71,7 +71,7 @@ msgid "Notifications, Volume Link and Auto Pause are disabled, exiting service"
 msgstr ""
 
 msgctxt "#32059"
-msgid "Sonos: Stopping service"
+msgid "CEC: Stopping service"
 msgstr ""
 
 msgctxt "#32060"
